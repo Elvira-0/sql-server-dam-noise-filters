@@ -18,7 +18,7 @@ These 47 robust regex rules catch and drop safe, routine machine-to-machine chat
 * Tooling Metadata Queries (SSMS Intellisense, AlwaysOn Pings)
 
 ## 📂 Usage
-Simply copy the raw contents of `dam_regex_rules.txt` and import them into your DAM appliance's global drop/ignore policy.
+Simply copy the raw contents of `dam_regex_rules.txt` and import them into your DAM appliance's global drop/ignore policy. Be careful about hangfire and login/logout logs, please don't write them if not necessary. 
 
 ## 🤝 Contributing
 Pull requests are welcome! If your company uses a specific APM tool or background service that generates safe noise, please open an issue or submit a PR with the tested regex.
